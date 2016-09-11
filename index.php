@@ -29,7 +29,7 @@
 	
 	
 	foreach ($spectacle as $ligne){
-			echo "Heure : " . $ligne["heure"] . "<br />" . "Titre du spectacle : "  . $ligne["titre_spectacle"] . "<br />" . "Nom de l'artise : " . $ligne["artiste"]. "<br />" . "Photo : " . $ligne["image_url"] . "<br />" . "<br />" ;
+			echo "Heure : " . $ligne["heure"] . "<br />" . "Titre du spectacle : "  . $ligne["titre_spectacle"] . "<br />" . "Nom de l'artise : " . $ligne["artiste"]. "<br />" . "reservation en ligne : " . $ligne["image_url"] . "<br />" . "<br />" ;
 		
 }
 
@@ -46,6 +46,8 @@
 	?>
 		
 	</div>
+
+
 
 </body>
 </html>
